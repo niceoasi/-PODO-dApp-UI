@@ -10,7 +10,7 @@ function App() {
 
   return (
       <TonConnectUIProvider
-          manifestUrl="https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json"
+          manifestUrl="https://niceoasi.github.io/PODO-dApp-UI/tonconnect-manifest.json"
           getConnectParameters={() => TonProofDemoApi.connectWalletRequest}
           uiPreferences={{ theme: THEME.DARK }}
           /*walletsListConfiguration={{
